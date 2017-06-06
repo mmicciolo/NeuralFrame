@@ -31,11 +31,6 @@ public class NeuralNetwork {
 					nextLayerNeuron.AddInputConnection(new Connection(currentLayerNeuron, nextLayerNeuron));
 				}
 			}
-			if(i == 0) {
-				
-			} else {
-				
-			}
 		}
 	}
 	
